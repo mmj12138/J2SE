@@ -1,0 +1,20 @@
+1.作业：快排+二分查找
+2.封装(Encapsulation) 继承：Inheritance 多态：Polymorphism
+  private属性：封
+  public方法：装
+3.Object类下的通用方法：
+  clone：克隆，创建一个和自己一样的对象，但是堆不一样。
+  toString：变成字符串。
+  finalize:垃圾回收，它是最后一道防线，轮询堆地址是否有栈被使用。
+  wait:等候，让当前线程等待。
+  notify:唤醒被等待的线程
+  getClass:得到当前对象的运行时类。
+  hashCode：这是当前对象的hash码。
+  notifyAll:唤醒所有被等待的线程。
+  equals：相等，判断堆得值是否相等。
+4.作业：组合：Composite
+  作业：聚合：Aggregation：
+5.重载：在同一个类中，有相同的方法名称，但是参数类型，个数，顺序不同，就是重载
+  overload
+  构造器也支持重载。而且重载的一塌糊涂。
+6.作业：int float char String 共计65个方法，锻炼你的重载构造器，让你永远不会忘记。

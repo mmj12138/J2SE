@@ -1,0 +1,40 @@
+1.克隆，
+  a.作业：浅层克隆：先实现 再重写 抛异常 加强转
+  b.作业：深层克隆：
+2.异常：一旦发生异常，后面的语句都将忽略。
+  a.ArrayIndexOutOfBoundsException:数组索引越界异常
+  b.ArithmeticException：算数异常
+  c.NullPointerException:空指针异常
+  d.EOFException:读取文件末尾异常
+  e.IllegalArgumentException：非法形参错误
+  f.ClassNotFoundException:类没有发现异常
+  g.FileNotFoundException：文件没有发现异常。
+3.try catch：被动，你不知道异常会发生时使用。
+  throw：主动地，你知道异常会发生时使用，只能在语句中。
+  throws：主动地抛出多个异常，只能在方法后，在重写的时候，
+  父亲的重写方法异常必须大于等于儿子的异常
+  RuntimeException：不用对其在编译时候进行处理。否则在编译时候，必须对其进行处理【try，throws】
+1.正则表达式【regular expression / regex expression】
+  字符串匹配，替换 ，查找，分割
+  \n:换行
+  \uHHHH:16进制的Unicode码
+  \r:回车
+  \xhh:16进制
+  x:任何合法字符
+  \t:制表符
+  *：0次或多次
+  +:一次货多次
+  ？:0次货一次
+  .:不包括\n的任何合法字符
+  []:枚举
+  ()：子表达式
+  |:或
+  $:结束
+  ^:开始
+  {}:频度
+  \:
+
+
+
+
+

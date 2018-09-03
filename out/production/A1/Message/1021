@@ -1,0 +1,63 @@
+1.单行注释
+2.多行注释：
+3.为什么能用中文作为标识符，
+  ASCII【C,C++】[0-255] a-97 b-98  z:122
+  java使用Unicode码做编码格式[0-255- 65535]
+  int [-2147483648----2147483647]
+  char [0-65535]
+  inCompatible:不匹配的
+  只要char在int范围之内，char和int可以互相表示
+4.作业：
+  测试 A=65 Z=90 a=97 z=122 0=48 9=57 他的10进制ascii码是多少
+  把 我25105来26469自33258理29702工24037大22823学23398 这几个字符，用数字表示出来，反之 用字符表示数字
+5.scope:范围
+
+int:整数，short:短整 long:长整 if：如果
+new:实例化
+import：导入
+else:否则
+return：返回
+package：包
+while:循环
+switch：
+abstract：抽象的。
+boolean:布尔
+interface:接口
+for:循环
+static:静态的
+continue:中断本次循环，继续下一次循环
+break：中断循环
+implement:实现
+private:私有
+【default】
+protected:保护
+public:公共的
+throw:抛出异常
+throws:抛出多个异常
+try:尽力
+catch：捕获
+synchronized：线程同步
+extends:继承
+void:无返回
+final:最终的
+finally:最终地
+super：父亲对象
+this:自己
+class:类
+do:
+case:
+byte:字节
+float：单精度浮点
+double:双精度浮点
+
+java的数据类型两种：
+bit【0000 0000】【1111 1111】
+primitive type：原始的类型:byte【-128---127】8bit short【-32768-32767】16bit int【】 32bit long 64bit
+                           float 32bit double 64bit
+                           char 【0-65535】 16bit [1111 1111 1111 1111] [0000-FFFF]
+                           boolean true false
+                                                  0--9 A-F
+reference type: 引用类型[pointer type] String Array Class Object
+
+
+

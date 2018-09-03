@@ -1,0 +1,12 @@
+1.字节流：数据传输使用字节的形式进行读取。
+  XXXInputStream
+  XXXOutputStream
+2.字符流：数据传输使用字符的形式进行读取。
+  XXReader
+  XXWriter
+3.作业：copy
+
+
+2017,12,07
+4.NIO,AIO,BIO区别
+5.作业NIO处理文件树，过滤出jpg和gif的图片

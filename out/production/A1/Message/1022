@@ -1,0 +1,21 @@
+1.Java是一种强类型语言，他的变量必须有数据类型。
+2. byte:8bit
+   short :16bit
+   int: 32bit
+   long:64bit
+   float: 32bit
+   double :64bit
+   char:16bit[0-65535]
+   boolean:1bit 1/8 byte
+3.十六进制： 0-9 A-F 0000 FFFF
+  八进制： 0-7
+  二进制： 0-1
+  1000--8==0*2(0)+0*2(1)----1*2(3)=8
+  1111
+4.科学计数法仅能用在小数上
+5.ArithmeticException:算数异常
+6.\r \n \b \t
+7.Runtime Exception
+8.Compile Exception
+\n 10 \b 8 \t 9 \r 13 0 48 9 57 a 97 z 122 A 65 Z 90
+9.Conversion:转换

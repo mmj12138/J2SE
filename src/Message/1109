@@ -1,0 +1,15 @@
+1.封装：encapsulation
+2.继承：inheritance：inherXXXXX
+3.多态：polymorphism:polyXXX
+4.method:方法
+  property【attribute】属性
+5.作业：getter setter 【sex name salary height weight birth address email alias zip】
+  并用实例化 以文字的形式打出，要求，封装特效,句式美妙！
+6.作业：司机开卡车 限速
+7.作业中，总结下：
+          1.当基本类型做形参，传递的是值，无论怎么改，本身不受影响。值传递
+          2.当引用类型做形参，传递的是地址，因此自身也改变了。引用传递
+          3.当引用类型做形参，
+          且是常量【String，Integer,Double,Float,Character,Long,Boolean,Byte,Short】的时候,
+          由于常量不能改变，因此他们传递进去的是他个人的副本，因此程序内修改的是他的副本，
+          所以自己本身没变，看似向值传递，实质仍然是引用传递。

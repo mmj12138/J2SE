@@ -1,0 +1,31 @@
+1.this：对象【类--实例化--对象】
+  A.调用自己本身的成员【方法，属性】 this.setName()
+  B.可以使用this调用自身构造器this();
+    1.必须在构造器中进行调用。
+    2.必须是第一条语句。
+  C返回自己，可以始终使用自己本身对象进行调用。 return this;
+2.super:对象 【类--实例化--对象】：指的是父亲。
+  A.调用父亲的成员，以防止发生混乱，不能，super.super.superXXXXX
+  B.调用父亲的构造器
+3.初始化块特点1是：优于构造器先执行。
+  特点2是：必须实例化才能执行。
+4.作业：完成以下描述：
+    两个类，父亲有初始化块，儿子也有，this(),this(int age),super(),观察其执行顺序。
+5.作业：宝马
+6.override:覆盖，重写:子类继承父类，当父亲的方法不能满足儿子的需要，在儿子中，可以声明一个
+和父亲一摸一样[方法名称，返回值，形参个数，顺序，类型]的方法对其进行覆盖。
+子类的权限不能比父亲的权限更严格。
+7.权限：
+  private
+  [default]
+  protected:
+  public
+8.package ：标记类的名牌号。
+  import：通过使用import，找到该名牌号，
+  java.lang:默认包，String，Math，Object，System
+  java.util:工具包
+  java.io:输入输出包，
+  java.net:网络开发包，socket，
+  java.awt:做图形界面开发用，
+  java.swing:做图形的。
+

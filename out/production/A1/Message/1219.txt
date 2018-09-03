@@ -1,0 +1,19 @@
+作业：
+1.Consumer--->accept--->:想操作某个对象。
+2.Predicate->test->断定某个东西是否正确
+             filter
+             negate
+3.Comparator-->compare->:比较对象的大小
+4.Function->apply-->:定义流水线的作用
+
+5.线程：
+  进程：
+
+6.InterruptedException：中断异常
+  Runnable Thread start stop interrupt sleep join
+  ExectorService Exectors submit Callable exector shutdown
+  awaitTermination
+  newFixedThreadPool newSingleThreadPool newCacheThreadPool FutureTask Future
+  yield setPriority
+  setDaemon
+

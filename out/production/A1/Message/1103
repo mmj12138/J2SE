@@ -1,0 +1,7 @@
+1.ArrayIndexOutOfBoundsException:数组越界异常
+2.作业：应用foreach进行累加
+3.作业：找出一个数组中最大的数，要求 for eache 三目。做到最优解。
+4.作业：颠倒数组元素顺序，最优折半写法。
+5.作业：针对arraycopy，fill，copyOf进行练习
+6.作业：二分查找法，进行关键字的查找。找到其在数组的索引号[5遍]
+7.作业：小孩转圈
